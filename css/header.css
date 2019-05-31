@@ -18,7 +18,7 @@ header a,
 }
 
 header .link:hover {
-  color: yellow;
+  color: orange;
 }
 
 .search input {
@@ -61,5 +61,5 @@ header .link:hover {
   display: block;
 }
 .settings .fa-caret-down ul li:hover {
-  background: rgba(236, 23, 51, 0.5);
+  background: rgba(238, 158, 11, 0.5);
 }
