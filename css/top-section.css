@@ -1,0 +1,44 @@
+#top-section {
+  background: url(../img/shenron.jpg) center center fixed no-repeat;
+  height: 400px;
+  padding: 100px 50px;
+}
+
+#top-section .user-img {
+  height: 200px;
+  width: 200px;
+  background: url(../img/broly-1.png) center center no-repeat;
+  background-size: contain;
+  display: inline-block;
+  position: relative;
+  top: 200px;
+  transition: all 1s ease-in-out;
+}
+#top-section .user-img:hover {
+  background: url(../img/broly-2.png) center center no-repeat;
+  background-size: contain;
+  transform: scale(1.3);
+}
+
+#top-section .user-details {
+  height: 100px;
+  width: 250px;
+  display: inline-block;
+  position: relative;
+  top: 100px;
+}
+
+#top-section .user-details h1 {
+  color: #fff;
+  font-size: 2rem;
+  vertical-align: middle;
+  padding-bottom: 2rem;
+}
+#top-section .user-details a {
+  color: #fff;
+  font-size: 1rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+  margin: 5px 0 1rem 0;
+}
