@@ -1,0 +1,65 @@
+header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background: #1c42ff;
+  align-items: center;
+  justify-items: center;
+  padding: 0.5em 0 0.5em 0;
+}
+header .logo img {
+  height: 35px;
+}
+
+header a,
+.fas {
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+header .link:hover {
+  color: #4b1ae8;
+}
+
+.search input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid aliceblue;
+  outline: none;
+  height: 2rem;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: aliceblue;
+}
+
+::-webkit-input-placeholder {
+  color: aliceblue;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.settings .fa-caret-down {
+  position: relative;
+}
+
+.settings .fa-caret-down ul {
+  position: absolute;
+  right: 10px;
+  background: rgba(14, 28, 219, 0.5);
+  width: 160px;
+  height: 200px;
+  text-align: center;
+  padding: 10px 0;
+  display: none;
+}
+
+.settings .fa-caret-down ul li {
+  padding: 10px;
+  margin: 10px 0;
+}
+.settings .fa-caret-down:hover ul {
+  display: block;
+}
+.settings .fa-caret-down ul li:hover {
+  background: rgba(236, 23, 51, 0.5);
+}
