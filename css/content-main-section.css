@@ -1,0 +1,258 @@
+#content-section main {
+  padding: 1.5rem;
+}
+
+#content-section main .widget-box {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 1rem;
+  position: relative;
+  bottom: 70px;
+  background: #fff;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  justify-items: center;
+}
+#content-section main .widget-box .widget .fas,
+p {
+  color: rgb(143, 143, 143);
+}
+#content-section main .widget-box .widget {
+  text-align: center;
+  padding: 5px;
+}
+#content-section main .widget-box .widget:hover {
+  cursor: pointer;
+  border-bottom: 2px solid rgb(22, 107, 219);
+}
+#content-section main .widget-box .widget:hover .fas {
+  color: rgb(22, 107, 219);
+}
+#content-section main .widget-box .widget:hover p {
+  color: rgb(22, 107, 219);
+}
+
+#content-section main .post-box {
+  padding: 1.5rem;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  position: relative;
+  bottom: 2rem;
+}
+
+#content-section main .post-box .post-info-container .pic {
+  background: url(../img/profile-pic.jpeg) center center no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+}
+#content-section main .post-box .post-info-container .post-info {
+  display: inline-block;
+  padding: 1rem;
+  line-height: 1.5;
+  position: relative;
+  bottom: 8px;
+  width: 80%;
+}
+
+#content-section main .post-box .post-info-container .post-info a {
+  color: rgb(22, 107, 219);
+}
+#content-section main .post-box .post-info-container .post-info p {
+  font-size: 14px;
+}
+#content-section main .post-box .post-info-container .fa-caret-down {
+  color: rgb(143, 143, 143);
+  float: right;
+  position: relative;
+}
+
+#content-section main .post-box .post-info-container .fa-caret-down:hover ul {
+  display: block;
+}
+.post-info-container .fa-caret-down ul {
+  position: absolute;
+  right: 15px;
+  background: rgba(238, 239, 248, 0.555);
+  width: 250px;
+  height: 300px;
+  text-align: left;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  display: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+.post-info-container .fa-caret-down ul .far {
+  margin: 0 10px 10px 0;
+}
+.post-info-container .fa-caret-down ul i,
+a {
+  color: rgb(60, 60, 60);
+}
+.post-info-container .fa-caret-down ul a {
+  font-weight: 500;
+}
+
+.post-info-container .fa-caret-down ul p {
+  margin: 0 0 0 30px;
+  font-size: 14px;
+  font-weight: 100;
+}
+.post-info-container .fa-caret-down ul span {
+  font-weight: 200;
+}
+.post-info-container .fa-caret-down ul li {
+  padding: 5px;
+}
+.post-info-container .fa-caret-down ul li:hover {
+  background: rgba(22, 107, 219, 0.75);
+}
+
+#content-section main .post-box .photo {
+  background: url(../img/pic1.jpeg) center center no-repeat;
+  background-size: contain;
+  height: 500px;
+}
+#content-section main .post-box .photo-bottom i {
+  color: rgb(143, 143, 143);
+  font-size: 1.3rem;
+}
+#content-section main .post-box .photo-bottom .fa-comment-alt {
+  float: right;
+}
+#content-section main .post-box .photo-bottom .icon:hover {
+  color: rgba(22, 107, 219);
+  cursor: pointer;
+}
+
+.comment-box .photo1 {
+  background: url(../img/profile-pic.jpeg) center center no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+}
+
+.comment-box .caption .comment {
+  display: inline-block;
+  padding: 0.5rem 0 0.5rem 1rem;
+  line-height: 1.5;
+  position: relative;
+  width: 85%;
+  background: rgb(235, 233, 233);
+  border-radius: 4px;
+  margin-bottom: 3px;
+}
+
+.comment-box .caption {
+  padding-left: 1rem;
+}
+.comment-box .caption .like {
+  margin-left: 5rem;
+  width: 85%;
+}
+.comment-box .caption .like a {
+  margin-right: 1rem;
+  font-size: 14px;
+}
+.comment-box .caption .like .far {
+  font-size: 14px;
+  float: right;
+  color: rgb(22, 107, 219);
+}
+.comment-box a {
+  color: rgba(22, 107, 219);
+}
+.reply .photo2 {
+  background: url(../img/krillin.jpeg) center center no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+.reply .comment1 {
+  display: inline-block;
+  padding: 0.5rem 0 0.5rem 1rem;
+  line-height: 1.5;
+  position: relative;
+  width: 89%;
+  background: rgb(247, 246, 246);
+  border-radius: 4px;
+  bottom: 14px;
+  margin-bottom: 3px;
+}
+.reply i {
+  float: right;
+  color: rgb(143, 143, 143);
+  font-size: 1.3rem;
+}
+.reply {
+  padding: 0.5rem 0 0.5rem 1rem;
+  width: 85%;
+  margin-left: 4rem;
+}
+.comment-box .reply .like {
+  margin-left: 5rem;
+  position: relative;
+  bottom: 14px;
+}
+.comment-box .reply .like a {
+  margin-right: 1rem;
+  font-size: 14px;
+}
+.comment-box .reply .like .far {
+  font-size: 14px;
+  float: right;
+  color: rgb(22, 107, 219);
+}
+
+.reply1 .photo3 {
+  background: url(../img/goku.jpeg) center center no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+.reply1 .comment2 {
+  display: inline-block;
+  padding: 0.5rem 0 0.5rem 1rem;
+  line-height: 1.5;
+  position: relative;
+  width: 89%;
+  background: rgb(247, 246, 246);
+  border-radius: 4px;
+  bottom: 14px;
+  margin-bottom: 3px;
+}
+
+.reply1 {
+  padding: 0.5rem 0 0.5rem 1rem;
+  width: 85%;
+  margin-left: 4rem;
+  position: relative;
+  bottom: 20px;
+}
+.comment-box .reply1 .like {
+  margin-left: 5rem;
+  position: relative;
+  bottom: 14px;
+}
+.comment-box .reply1 .like a {
+  margin-right: 1rem;
+  font-size: 14px;
+}
+.comment-box .reply1 .like .far {
+  font-size: 14px;
+  float: right;
+  color: rgb(22, 107, 219);
+}

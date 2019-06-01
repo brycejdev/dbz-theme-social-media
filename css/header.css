@@ -40,6 +40,7 @@ header .link:hover {
 
 .settings .fa-caret-down {
   position: relative;
+  transition: all 0.2s ease-in-out;
 }
 
 .settings .fa-caret-down ul {
