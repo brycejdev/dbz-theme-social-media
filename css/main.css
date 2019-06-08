@@ -4,6 +4,7 @@
 @import 'top-section.css';
 @import 'content-aside-section.css';
 @import 'content-main-section.css';
+@import 'footer.css';
 
 body {
   font-family: 'Ubuntu', sans-serif;
